@@ -1,0 +1,49 @@
+@import "tool.css";
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    color: #686668;
+    font-weight: 300;
+    font-size: 18pt;
+}
+.input{
+    display: block;
+    height: 34px;
+    font-size: 14px;
+    background-color: white;
+    color: #555555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 60%;
+    padding: 5px 10px;
+}
+.orange {
+    background: #FF9900 !important;
+    border-radius: 5px;
+    color: #FFF;
+    font-family: 'Roboto' !important;
+    margin-top: 10px;
+}
+table{
+    width: 100%;
+}
+thead{
+    background-color: #2C9FC2;
+    color: #fff;
+    padding: 2em;
+}
+th{
+    padding: .5em;
+    text-transform: capitalize;
+}
+tbody tr td {
+    padding: .5em;
+    border: none
+}
+tbody tr:nth-child(odd) {
+    background: #F2F2F2;
+}
+tbody tr:nth-child(even) {
+    background: #96d7f3;
+}
