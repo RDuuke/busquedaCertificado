@@ -15,7 +15,7 @@
     <div class="ed-item s-100 align-center">
         <h3 class="align-center">Ingrese el número de su documento de identidad o correo electrónico para descargar el certificado.</h3>
         <input type="text" name="documento" class="input centro" placeholder="Documento de identidad o correo electrónico">
-        <button class="btn orange">Consultar</button>
+        <button class="btn orange searchCertificate">Consultar</button>
     </div>
 </div>
 <div class="ed-container">
@@ -25,9 +25,8 @@
         <table border="0">
             <thead>
                 <tr>
-                    <th>Código</th>
+                    <th>#</th>
                     <th>Nombre</th>
-                    <th>Horas</th>
                     <th>Certificado</th>
                 </tr>
             </thead>
@@ -35,19 +34,19 @@
                 <tr>
                     <td>001</td>
                     <td>Nombre de curso.</td>
-                    <td>10</td>
-                    <td><a href="">Descargar</a></td>
+                    <td><a class="openCerticate" href="">Descargar</a></td>
                 </tr>
                 <tr>
                     <td>002</td>
                     <td>Nombre de curso.</td>
-                    <td>9</td>
-                    <td><a href="">Descargar</a></td>
+                    <td><a class="openCerticate" href="">Descargar</a></td>
                 </tr>
             </tbody>
         </table>
-        <p class="text-blue text-bold">Total horas de formación: 19</p>
     </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/template.js"></script>
 </body>
 </html>
