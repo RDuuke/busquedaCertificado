@@ -3,6 +3,9 @@ $(".searchCertificate").on('click', function(event) {
     axios.get("http://campusdigital.arrobamedellin.edu.co/campus/helpers/endpoint.php?opc=1&documento=" + $("input[name=documento]").val(), {})
         .then(function(response) {
             console.info(response.data);
+            for (let index = 0; index < response.data.length; index++) {
+                console.log(response.data[index]);
+            }
         })
         .catch(function(error) {
             console.error(error);
