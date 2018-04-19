@@ -1,22 +1,28 @@
 /*  herramientas de texto  */
-.align-center
-{
+
+.align-center {
     text-align: center;
 }
-.text-blue{
+
+.text-blue {
     color: #2C9FC2;
 }
-.text-bold
-{
+
+.text-bold {
     font-weight: bold;
 }
+
+
 /* box */
-.centro
-{
+
+.centro {
     margin: 0 auto;
 }
+
+
 /* form */
-.btn{
+
+.btn {
     display: inline-block;
     margin-bottom: 0;
     font-weight: normal;
@@ -36,6 +42,14 @@
     -ms-user-select: none;
     user-select: none;
 }
-.pointer{
+
+.pointer {
     cursor: pointer;
+}
+
+
+/* display */
+
+.none {
+    display: none;
 }

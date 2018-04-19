@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,700i" rel="stylesheet">
+    <link href="https://file.myfontastic.com/H9QChLnoFvUzK2ZuWRoiRZ/icons.css" rel="stylesheet">
     <title>Busqueda de certificado @Medellín</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/ed-grid.min.css">
@@ -18,9 +19,9 @@
         <button class="btn orange searchCertificate">Consultar</button>
     </div>
 </div>
-<div class="ed-container">
+<div id="content_result" class="ed-container none">
     <div id="containt-table" class="ed-item s-100 align-center">
-        <h3>Bienvenido(a), Nombre Apellido</h3>
+        <h3>Bienvenido(a), <span id="name"></span></h3>
         <p>A continuación encontrará los certificados disponibles.</p>
         <table border="0" id="tableCertificate">
             <thead>
